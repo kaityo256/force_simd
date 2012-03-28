@@ -1,0 +1,19 @@
+Force Calculation Test Code
+
+SIMDized code for 3D-Lennard-Jones potential
+
+force.cc: source code
+makefile: makefile
+result.txt: Result file on Intel Xeon X5570 2.93GHz
+
+Usage:
+
+$ make
+$ ./a.out
+
+calcforce:  Calculate force between all particles.
+calcforce2: place i-particle on register
+calcforce_sp: software pipelined
+calcforce_sp_unroll: software pipelined and loop unrolled
+calcforce_sp_unroll_simd: software pipelined and loop unrolled and SIMDized
+
