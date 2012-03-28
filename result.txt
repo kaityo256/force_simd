@@ -2,12 +2,12 @@ icpc -O3
 N=27000, calcforce 5.523395 [sec]
 N=27000, calcforce2 2.846627 [sec]
 N=27000, calcforce_sp 4.392426 [sec]
-N=27000, calcforce_sp_unrool 4.022719 [sec]
-N=27000, calcforce_sp_unrool_simd 2.686353 [sec]
+N=27000, calcforce_sp_unroll 4.022719 [sec]
+N=27000, calcforce_sp_unroll_simd 2.686353 [sec]
 
 g++ -O3
 N=27000, calcforce 5.457083 [sec]
 N=27000, calcforce2 5.119660 [sec]
 N=27000, calcforce_sp 4.282306 [sec]
-N=27000, calcforce_sp_unrool 4.255597 [sec]
-N=27000, calcforce_sp_unrool_simd 3.542032 [sec]
+N=27000, calcforce_sp_unroll 4.255597 [sec]
+N=27000, calcforce_sp_unroll_simd 3.542032 [sec]

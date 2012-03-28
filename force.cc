@@ -359,8 +359,8 @@ main(void){
   measure(&calcforce,"calcforce");
   measure(&calcforce2,"calcforce2");
   measure(&calcforce_sp,"calcforce_sp");
-  measure(&calcforce_sp_unroll,"calcforce_sp_unrool");
-  measure(&calcforce_sp_unroll_simd,"calcforce_sp_unrool_simd");
+  measure(&calcforce_sp_unroll,"calcforce_sp_unroll");
+  measure(&calcforce_sp_unroll_simd,"calcforce_sp_unroll_simd");
 /*
   for(int i=0;i<N;i++){
     printf("%f %f %f\n",p[i][X],p[i][Y],p[i][Z]);
